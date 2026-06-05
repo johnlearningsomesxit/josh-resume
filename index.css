@@ -79,9 +79,9 @@
 .hero-content {
     z-index: 10;
     position: relative;
-    width: min(100%, 880px);
-    padding: 3.5rem 3rem;
-    border-radius: 28px;
+    width: min(100%, 760px);
+    padding: 2.6rem 2.35rem;
+    border-radius: 24px;
     background: linear-gradient(145deg, rgba(255, 255, 255, 0.14), rgba(8, 13, 25, 0.42));
     backdrop-filter: var(--glass-blur);
     -webkit-backdrop-filter: var(--glass-blur);
@@ -189,12 +189,12 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 6rem 1rem 5rem;
+    padding: 5rem 1rem 4rem;
     animation: fadeInUp 1.5s cubic-bezier(0.2, 1, 0.3, 1) forwards;
 }
 
 .hero h1 {
-    font-size: clamp(3.5rem, 8vw, 6.75rem);
+    font-size: clamp(2.8rem, 6.4vw, 5.2rem);
     font-weight: 800;
     background: linear-gradient(90deg, #ffffff 0%, #f8fbff 42%, #a8c7ff 100%);
     -webkit-background-clip: text;
@@ -207,7 +207,7 @@ body {
 }
 
 .hero h2 {
-    font-size: 1.8rem;
+    font-size: 1.35rem;
     color: #91c5ff;
     font-weight: 700;
     margin-bottom: 1.5rem;
@@ -224,7 +224,7 @@ body {
     border-radius: 99px;
     font-size: 0.9rem;
     color: #ffffff;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     backdrop-filter: var(--glass-blur);
     -webkit-backdrop-filter: var(--glass-blur);
     box-shadow: 0 12px 34px rgba(0, 0, 0, 0.28);
@@ -232,9 +232,9 @@ body {
 
 .hero-subtitle {
     color: #f4f7fb;
-    max-width: 680px;
+    max-width: 620px;
     margin: 0 auto;
-    font-size: 1.13rem;
+    font-size: 1.05rem;
     text-shadow: 0 4px 22px rgba(0, 0, 0, 0.72);
 }
 
@@ -249,10 +249,10 @@ body {
 .hero-metrics {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-    margin-top: 5rem;
-    width: 100%;
-    max-width: 1000px;
+    gap: 1.25rem;
+    margin-top: 3.5rem;
+    width: min(100%, 860px);
+    max-width: 860px;
 }
 
 .metric-card {
@@ -260,8 +260,8 @@ body {
     border: 1px solid var(--card-border);
     backdrop-filter: var(--glass-blur);
     -webkit-backdrop-filter: var(--glass-blur);
-    border-radius: 24px;
-    padding: 2.5rem 1.5rem;
+    border-radius: 20px;
+    padding: 1.65rem 1.25rem;
     transition: var(--transition);
     box-shadow: 0 22px 50px rgba(0, 0, 0, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.1);
 }
@@ -274,7 +274,7 @@ body {
 
 .metric-card h4 {
     margin-bottom: 0.75rem;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 800;
     color: #fff;
     letter-spacing: 0;
@@ -282,8 +282,46 @@ body {
 
 .metric-card p {
     color: var(--text-dim);
-    font-size: 1rem;
+    font-size: 0.92rem;
     line-height: 1.4;
+}
+
+.credibility-strip {
+    margin: -1.25rem auto 3rem;
+    max-width: 820px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 0.85rem;
+    text-align: center;
+    z-index: 10;
+    position: relative;
+}
+
+.credibility-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    backdrop-filter: var(--glass-blur);
+    -webkit-backdrop-filter: var(--glass-blur);
+    border-radius: 14px;
+    padding: 0.85rem 0.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+    box-shadow: 0 16px 38px rgba(0, 0, 0, 0.24), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.credibility-card i {
+    color: var(--primary);
+    width: 20px;
+    height: 20px;
+}
+
+.credibility-card span {
+    font-weight: 600;
+    font-size: 0.82rem;
+    line-height: 1.25;
+    color: var(--text-main);
 }
 
 /* Section Headers */
