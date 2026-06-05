@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>許秉桂 Josh Hsu | AI Product Engineer & System Architect</title>
+    <meta name="description" content="許秉桂 (Josh Hsu) 的專業履歷 - 資深 AI 產品工程師，專精於 LLM 產品化、自動化管線與工業級穩定性架構。">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="bg-overlay"></div>
+    <div class="gradient-mesh"></div>
+    
+    <!-- Hero Video Background (Devon Stank Style) -->
+    <div class="hero-video-container" aria-hidden="true">
+        <div class="hero-video-overlay"></div>
+        <video autoplay muted loop playsinline webkit-playsinline class="hero-video" preload="auto" poster="./assets/background.png">
+            <source src="https://assets.mixkit.co/videos/preview/mixkit-abstract-technology-connection-background-4416-large.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="container">
+        <nav class="site-nav">
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+            </label>
+            <div class="nav-links">
+                <a href="#summary">About</a>
+                <a href="#tech-stack">Tech</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#soft-skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+        <!-- Hero Section (Updated to Devon Stank Style) -->
+        <header class="hero">
+            <div class="hero-content">
+                <div class="badge">Open for Opportunities in Taiwan</div>
+                <h1>許秉桂 <span class="name-en">Josh Hsu</span></h1>
+                <h2>Senior AI Product Engineer <br class="mobile-br"> / AI System Architect</h2>
+                <p class="hero-subtitle">
+                    資深 AI 產品工程師 | 專精於 LLM 產品化、自動化管線與工業級穩定性架構
+                </p>
+                
+                <div class="contact-bar">
+                    <a href="mailto:pkg0530hsu@gmail.com" class="contact-link">
+                        <i data-lucide="mail"></i> pkg0530hsu@gmail.com
+                    </a>
+                    <a href="https://www.linkedin.com/in/pingkuei-737560281/" target="_blank" rel="noopener noreferrer" class="contact-link">
+                        <i data-lucide="external-link"></i> LinkedIn
+                    </a>
+                    <a href="https://github.com/pkg0530hsu" target="_blank" rel="noopener noreferrer" class="contact-link">
+                        <i data-lucide="code-2"></i> GitHub
+                    </a>
+                </div>
+                
+                <div class="hero-actions">
+                    <a href="Professional_Resume_AI_Engineer.md" class="btn btn-primary">下載履歷</a>
+                    <a href="#projects" class="btn btn-secondary">查看專案</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Professional Summary -->
+        <section id="summary" class="reveal">
+            <h3><i data-lucide="user"></i> 專業總覽與核心優勢</h3>
+            <p class="section-description">
+                具備深厚的 AI 應用開發經驗，擅長將尖端技術轉化為可商業化的穩定產品。目前專注於打造工業級 AI 電商自動化工具，提升自動化效率與系統穩定度。
+            </p>
+            <div class="card">
+                <div class="highlight-grid">
+                    <div class="feature-card">
+                        <h4>AI 產品化思維</h4>
+                        <p>不只是 PoC，建立可部署、可運維、可監控的工業級 AI 產品管線與雲端同步架構。</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>高階 Prompt Engineering</h4>
+                        <p>設計 V6 級結構化 Prompt 框架，優化 LLM 輸出品質並加入商業合規過濾。</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>系統穩定性與成本優化</h4>
+                        <p>採用斷點續傳 (Checkpointing) 與錯誤隔離機制，顯著降低執行風險並節省 30% 以上成本。</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>全端技術整合</h4>
+                        <p>從 Python/YAML 邏輯核心到 UI 介面封裝，提供端到端的 AI 自動化解決方案。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tech Stack -->
+        <section id="tech-stack" class="reveal">
+            <h3><i data-lucide="cpu"></i> 核心技術棧</h3>
+            <div class="skill-grid">
+                <div class="card skill-category">
+                    <h4>AI & Data Science</h4>
+                    <div class="tags">
+                        <span class="tag">Google Gemini</span>
+                        <span class="tag">OpenAI API</span>
+                        <span class="tag">Prompt Engineering</span>
+                        <span class="tag">OpenCV</span>
+                        <span class="tag">Rembg</span>
+                        <span class="tag">ONNX</span>
+                        <span class="tag">Trino</span>
+                        <span class="tag">Pandas</span>
+                        <span class="tag">RAG Architecture</span>
+                    </div>
+                </div>
+                <div class="card skill-category">
+                    <h4>Software Engineering</h4>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">YAML Workflow</span>
+                        <span class="tag">SQL</span>
+                        <span class="tag">Modular Design</span>
+                        <span class="tag">PyInstaller</span>
+                        <span class="tag">Aiohttp</span>
+                        <span class="tag">Git</span>
+                        <span class="tag">CI/CD Pipelines</span>
+                        <span class="tag">Cloud Sync (OneDrive)</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section id="experience" class="reveal">
+            <h3><i data-lucide="briefcase"></i> 專業經歷</h3>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <h4>AI 產品開發負責人</h4>
+                        <span class="timeline-date">202X – 現在</span>
+                    </div>
+                    <p class="timeline-overview">核心 AI 工具開發與維護</p>
+                    <div class="card">
+                        <div class="timeline-content">
+                            <h5>工業級穩定性架構</h5>
+                            <ul>
+                                <li><strong>斷點續傳機制</strong>：實作 Checkpointing 系統，批次處理中斷後精確復原，節省 30% 運算成本。</li>
+                                <li><strong>錯誤隔離與彈性</strong>：整合 Retry/Backoff 機制與 Plugin 錯誤隔離，確保整體流程穩定。</li>
+                                <li><strong>執行效能觀測</strong>：Thread-safe UI 更新，提供即時進度條與動態 ETA 計算。</li>
+                            </ul>
+
+                            <h5>YAML 驅動的工作流引擎</h5>
+                            <ul>
+                                <li><strong>解耦開發</strong>：重構硬編碼邏輯為 YAML 參數化工作流，提升擴展彈性。</li>
+                                <li><strong>Admin Panel</strong>：建構內建工作流編輯器，賦能非技術人員調整參數。</li>
+                            </ul>
+
+                            <h5>高階 Prompt Engineering (V6 Enhanced)</h5>
+                            <ul>
+                                <li>建立結構化 Prompt 體系，涵蓋 Situation, Model, Marketing 等多維度.</li>
+                                <li>導入法規合規性過濾，確保 AI 生成內容可直接商用.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <h4>AI 自動化架構師</h4>
+                        <span class="timeline-date">202X – 202X</span>
+                    </div>
+                    <p class="timeline-overview">設計跨部門 AI 系統架構，提升資料流轉與部署效率。</p>
+                    <div class="card">
+                        <div class="timeline-content">
+                            <h5>雲端同步與配置可信度</h5>
+                            <ul>
+                                <li>建立 OneDrive/SharePoint 同步機制，解決多環境配置衝突。</li>
+                                <li>實作 delta update 與完整性自檢，提升部署穩定度.</li>
+                            </ul>
+
+                            <h5>工具化與運維監控</h5>
+                            <ul>
+                                <li>開發 Admin Panel 與差分更新工具，簡化非技術人員部署流程.</li>
+                                <li>推動 Logging、Health Check 與 Smoke Test 機制，保障上線品質.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="reveal">
+            <h3><i data-lucide="layers"></i> 精選專案</h3>
+            <p class="section-description">
+                以實務專案為核心，展示 AI 產品開發、工作流自動化與檢索增強生成的應用案例。
+            </p>
+            <div class="project-grid">
+                <div class="project-card reveal">
+                    <div>
+                        <h4>AI 整合產品開發 (Wizard Framework)</h4>
+                        <p>將 PoC 模型轉化為具備斷點續傳 (Checkpointing) 與錯誤隔離機制的工業級產品。透過 YAML 參數化管理，實現高擴展性架構，顯著降低 30% 以上運算成本。</p>
+                    </div>
+                    <div class="project-tags">
+                        <span class="tag">LLM Ops</span>
+                        <span class="tag">Workflow Engine</span>
+                    </div>
+                </div>
+                <div class="project-card reveal">
+                    <div>
+                        <h4>自動化影像與文案管線</h4>
+                        <p>整合 Google Gemini 與 OpenCV，實作素材自動去背、語義文案生成及批次雲端同步。內建 RAG 結構確保品牌調性，日處理量達千級規模。</p>
+                    </div>
+                    <div class="project-tags">
+                        <span class="tag">Gemini API</span>
+                        <span class="tag">Computer Vision</span>
+                    </div>
+                </div>
+                <div class="project-card reveal">
+                    <div>
+                        <h4>互動式品牌展示 (Interactive Portfolio)</h4>
+                        <p>集結現代網頁設計、流暢入場動畫與 AI 助理互動的綜合展示頁面。展示高轉換率的 UI/UX 設計與個人品牌形象包裝實力。</p>
+                    </div>
+                    <div class="project-actions">
+                        <a href="showcase/index.html" target="_blank" rel="noopener noreferrer" class="btn btn-small btn-primary">進入專案展示</a>
+                    </div>
+                    <div class="project-tags">
+                        <span class="tag">UI/UX</span>
+                        <span class="tag">Animation</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="reveal">
+            <h3><i data-lucide="mail"></i> 聯絡我</h3>
+            <div class="card contact-card">
+                <p>若您有合作邀約、履歷諮詢或專案洽談，歡迎透過以下方式聯繫我。</p>
+                <div class="contact-grid">
+                    <div>
+                        <strong>Email</strong>
+                        <p><a href="mailto:pkg0530hsu@gmail.com">pkg0530hsu@gmail.com</a></p>
+                    </div>
+                    <div>
+                        <strong>LinkedIn</strong>
+                        <p><a href="https://www.linkedin.com/in/pingkuei-737560281/" target="_blank" rel="noopener noreferrer">linkedin.com/in/pingkuei-737560281</a></p>
+                    </div>
+                    <div>
+                        <strong>GitHub</strong>
+                        <p><a href="https://github.com/pkg0530hsu" target="_blank" rel="noopener noreferrer">github.com/pkg0530hsu</a></p>
+                    </div>
+                </div>
+                <a href="Professional_Resume_AI_Engineer.md" class="btn btn-primary">下載完整履歷</a>
+            </div>
+        </section>
+
+        <footer class="page-footer">
+            &copy; 2026 Josh Hsu. Built with AI and Modern Web Tech.
+        </footer>
+    </div>
+
+    <script>
+        // Initialize Lucide icons without letting CDN/icon mismatches break the page.
+        if (window.lucide && typeof window.lucide.createIcons === 'function') {
+            try {
+                window.lucide.createIcons();
+            } catch (error) {
+                console.warn('Icon initialization skipped:', error);
+            }
+        }
+
+        // Progressive reveal: content remains visible if JS or IntersectionObserver fails.
+        const revealElements = document.querySelectorAll('.reveal');
+        if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            document.documentElement.classList.add('js-reveal-enabled');
+
+            const revealCallback = (entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            };
+
+            const revealObserver = new IntersectionObserver(revealCallback, {
+                threshold: 0.15,
+                rootMargin: '0px 0px -50px 0px'
+            });
+
+            revealElements.forEach(el => revealObserver.observe(el));
+            window.setTimeout(() => {
+                revealElements.forEach(el => el.classList.add('active'));
+            }, 1500);
+        } else {
+            revealElements.forEach(el => el.classList.add('active'));
+        }
+
+        // Hero Parallax Effect
+        const heroContent = document.querySelector('.hero-content');
+        document.addEventListener('mousemove', (e) => {
+            if (heroContent && window.innerWidth > 768) {
+                const x = (window.innerWidth / 2 - e.pageX) / 50;
+                const y = (window.innerHeight / 2 - e.pageY) / 50;
+                heroContent.style.transform = `rotateY(${x}deg) rotateX(${-y}deg) translateY(${y}px)`;
+            }
+        });
+
+        // Force Video Play
+        const video = document.querySelector('.hero-video');
+        if (video) {
+            const playVideo = () => video.play().catch(() => {});
+            playVideo();
+            ['touchstart', 'click', 'scroll'].forEach(evt => 
+                document.addEventListener(evt, playVideo, { once: true })
+            );
+        }
+    </script>
+</body>
+
+</html>
